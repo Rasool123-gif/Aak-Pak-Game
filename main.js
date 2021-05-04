@@ -102,7 +102,7 @@ var gamearea = {
         this.score = 0;
         scoreText.update("Score: 0");
         this.interval = setInterval(this.updateGameArea, 5);
-        window.addEventListener("keydown",function()
+        window.addEventListener("click",function()
           {
             if(player.y == 520)
             {
